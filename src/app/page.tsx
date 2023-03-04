@@ -1,11 +1,13 @@
-import SEO from "@seo-default";
-
-import { NextSeo } from "next-seo";
+import type { Metadata } from "next";
 import { FC } from "react";
+
+export const metadata: Metadata = {
+	title: "Template",
+	description: "Welcome to Next.js"
+};
 
 const Page: FC = () => (
 	<>
-		<NextSeo title="Hello" useAppDir {...SEO} />
 		<span>Hello World</span>
 	</>
 );
