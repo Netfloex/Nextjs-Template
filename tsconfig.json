@@ -3,8 +3,7 @@
 		"baseUrl": ".",
 		"paths": {
 			"@typings/*": ["src/typings/*"],
-			"@styles/*": ["src/styles/*"],
-			"@seo-default": ["src/next-seo.config"]
+			"@styles/*": ["src/styles/*"]
 		},
 		"target": "es5",
 		"lib": ["dom", "dom.iterable", "esnext"],

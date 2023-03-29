@@ -18,7 +18,7 @@
 	"license": "ISC",
 	"dependencies": {},
 	"devDependencies": {
-		"@trivago/prettier-plugin-sort-imports": "^4.1.1",
+		"@ianvs/prettier-plugin-sort-imports": "^3.7.2",
 		"@types/node": "^18.14.6",
 		"@types/react": "^18.0.28",
 		"@typescript-eslint/eslint-plugin": "^5.54.0",

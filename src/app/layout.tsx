@@ -1,6 +1,6 @@
-import "@styles/global.scss";
+import "@styles/global.scss"
 
-import { FCC } from "@typings/FCC";
+import { FCC } from "@typings/FCC"
 
 const RootLayout: FCC = ({ children }) => (
 	<html lang="en">
@@ -10,6 +10,6 @@ const RootLayout: FCC = ({ children }) => (
 		</head>
 		<body>{children}</body>
 	</html>
-);
+)
 
-export default RootLayout;
+export default RootLayout
