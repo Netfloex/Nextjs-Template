@@ -1,6 +1,5 @@
-import { FC } from "react"
-
 import type { Metadata } from "next"
+import type { FC } from "react"
 
 export const metadata: Metadata = {
 	title: "Template",
